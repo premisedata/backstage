@@ -15,12 +15,11 @@
  */
 
 import { getVoidLogger } from '@backstage/backend-common';
+import waitForExpect from 'wait-for-expect';
 import { DefaultProcessingDatabase } from './database/DefaultProcessingDatabase';
-
 import { DefaultCatalogProcessingEngine } from './DefaultCatalogProcessingEngine';
 import { Stitcher } from './Stitcher';
 import { CatalogProcessingOrchestrator } from './types';
-import waitForExpect from 'wait-for-expect';
 
 describe('DefaultCatalogProcessingEngine', () => {
   const db = ({
@@ -38,6 +37,7 @@ describe('DefaultCatalogProcessingEngine', () => {
   beforeEach(() => {
     jest.resetAllMocks();
   });
+
   it('should process stuff', async () => {
     orchestrator.process.mockResolvedValue({
       ok: true,
