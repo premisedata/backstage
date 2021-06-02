@@ -1,7 +1,7 @@
 {
   "name": "@backstage/core",
   "description": "Core API used by Backstage plugins and apps",
-  "version": "0.7.11",
+  "version": "0.7.12",
   "private": false,
   "publishConfig": {
     "access": "public",
@@ -71,8 +71,8 @@
     "zen-observable": "^0.8.15"
   },
   "devDependencies": {
-    "@backstage/cli": "^0.6.13",
-    "@backstage/test-utils": "^0.1.12",
+    "@backstage/cli": "^0.6.14",
+    "@backstage/test-utils": "^0.1.13",
     "@testing-library/jest-dom": "^5.10.1",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^13.1.8",

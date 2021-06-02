@@ -1,5 +1,16 @@
 # @backstage/plugin-catalog-backend
 
+## 0.10.1
+
+### Patch Changes
+
+- f46a9e82d: Move dependency to `@microsoft/microsoft-graph-types` from `@backstage/plugin-catalog`
+  to `@backstage/plugin-catalog-backend`.
+- Updated dependencies [ebe802bc4]
+- Updated dependencies [49d7ec169]
+  - @backstage/catalog-model@0.8.1
+  - @backstage/integration@0.5.5
+
 ## 0.10.0
 
 ### Minor Changes
