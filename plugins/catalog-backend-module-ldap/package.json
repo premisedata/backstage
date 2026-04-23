@@ -41,7 +41,7 @@
     "@types/ldapjs": "^2.2.0",
     "ldapjs": "^2.2.0",
     "lodash": "^4.17.21",
-    "uuid": "^8.0.0",
+    "uuid": "^14.0.0",
     "winston": "^3.2.1"
   },
   "devDependencies": {
