@@ -6135,7 +6135,7 @@ __metadata:
     "@types/sanitize-html": ^2.6.2
     classnames: ^2.3.1
     cross-fetch: ^3.1.5
-    dompurify: ^2.3.6
+    dompurify: ^3.4.11
     lodash: ^4.17.21
     luxon: ^3.0.0
     material-ui-popup-state: ^1.9.3
@@ -6917,7 +6917,7 @@ __metadata:
     "@types/node": ^16.11.26
     classnames: ^2.3.1
     cross-fetch: ^3.1.5
-    dompurify: ^2.3.6
+    dompurify: ^3.4.11
     lodash: ^4.17.21
     luxon: ^3.0.0
     material-ui-popup-state: ^1.9.3
@@ -8383,7 +8383,7 @@ __metadata:
     "@types/node": ^16.11.26
     canvas: ^2.10.2
     cross-fetch: ^3.1.5
-    dompurify: ^2.2.9
+    dompurify: ^3.4.11
     event-source-polyfill: 1.0.25
     git-url-parse: ^13.0.0
     jss: ~10.9.0
@@ -15629,6 +15629,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/trusted-types@npm:^2.0.7":
+  version: 2.0.7
+  resolution: "@types/trusted-types@npm:2.0.7"
+  checksum: 8e4202766a65877efcf5d5a41b7dd458480b36195e580a3b1085ad21e948bc417d55d6f8af1fd2a7ad008015d4117d5fdfe432731157da3c68678487174e4ba3
+  languageName: node
+  linkType: hard
+
 "@types/tunnel@npm:^0.0.3":
   version: 0.0.3
   resolution: "@types/tunnel@npm:0.0.3"
@@ -20966,10 +20973,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:^2.2.7, dompurify@npm:^2.2.9, dompurify@npm:^2.3.6":
+"dompurify@npm:^2.2.7":
   version: 2.4.3
   resolution: "dompurify@npm:2.4.3"
   checksum: b440981f2a38cada2085759cc3d1e2f94571afc34343d011a8a6aa1ad91ae6abf651adbfa4994b0e2283f0ce81f7891cdb04b67d0b234c8d190cb70e9691f026
+  languageName: node
+  linkType: hard
+
+"dompurify@npm:^3.4.11":
+  version: 3.4.11
+  resolution: "dompurify@npm:3.4.11"
+  dependencies:
+    "@types/trusted-types": ^2.0.7
+  dependenciesMeta:
+    "@types/trusted-types":
+      optional: true
+  checksum: f96ec0f1ea763779ee0c08e05015422d600c14d4e0a6dd4b21cfb4ac30082c333534c2092206d55fcf9597f9750622facdaf295463b3f826b38569c928d16f19
   languageName: node
   linkType: hard
 
