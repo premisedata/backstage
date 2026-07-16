@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "@spotify/prettier-config": "^14.0.0",
-    "js-yaml": "^4.1.0",
+    "js-yaml": "^4.2.0",
     "prettier": "^2.6.2",
     "replace": "^1.2.2"
   },
